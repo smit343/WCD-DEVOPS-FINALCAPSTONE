@@ -1,0 +1,15 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore .terraform directory
+**/.terraform/*
+
+# Ignore sensitive credential files
+*.tfvars
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
