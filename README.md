@@ -11,7 +11,7 @@ The project consists of three main sections:
 
 This README file will briefly describe the steps to launch the EKS cluster, the observability system, and the web application.
 
-URL for the public GitHub repository: https://github.com/caroldelwing/WCD-DevOps-FinalCapstone
+URL for the public GitHub repository: https://github.com/smit343/Capstone-project.git
 
 ## Table of contents
 
@@ -63,7 +63,7 @@ Click the "Fork" button at the top-right corner of the repository page. This wil
 
 - In your terminal, clone the forked repository and navigate to the WCD-DevOps-FinalCapstone folder (replace the link below with the link to your repo):
 ```sh
-git clone https://github.com/caroldelwing/WCD-DevOps-FinalCapstone.git
+git clone https://github.com/smit343/Capstone-project.git
 cd WCD-DevOps-FinalCapstone
 ```
 
@@ -156,6 +156,5 @@ Below, you can check diagrams of the CICD pipeline integrated with the cloud arc
 
 ## Authors
 
-- Beatriz Carvalho de Oliveira - https://github.com/beatrizCarvalhoOliveira
-- Carolina Delwing Rosa - https://github.com/caroldelwing
-- Zakiir Juman - https://github.com/zakiirjuman
+- Smit patel - https://github.com/smit343/Capstone-project.git
+
