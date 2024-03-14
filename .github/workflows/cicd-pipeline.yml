@@ -41,17 +41,17 @@ jobs:
         run: |
           
           #Build NodeJS app image
-          docker build -t caroldelwing/p8app -f Dockerfile.app .
+          docker build -t smit343/p8app -f Dockerfile.app .
 
           #Build MongoDB image
-          docker build -t caroldelwing/p8mongodb -f Dockerfile.mongodb .
+          docker build -t smit343/p8mongodb -f Dockerfile.mongodb .
 
           #Log in to Docker Hub
           echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
 
           #Push the images
-          docker push caroldelwing/p8app
-          docker push caroldelwing/p8mongodb
+          docker push smit343/p8app
+          docker push smit343/p8mongodb
 
       #Step 4: Deploy application to EKS
       - name: Deploy to EKS
